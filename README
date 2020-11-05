@@ -1,0 +1,6 @@
+# create image
+docker build -t hello-python .
+
+# run image
+docker run hello-python
+docker run -v ~/Documents/Work/sandbox/Python/src:/src hello-python
